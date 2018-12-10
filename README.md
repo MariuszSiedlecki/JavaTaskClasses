@@ -1,6 +1,6 @@
 
 
-src/Tas2/Task3.
+src/Tas2/Task3/Task5
 
 Task 2. Stwórz program który bedzie zawierał dwie klasy: Emploeyy i Company. Emploeyy - klasa bedzie przedstawiała pracownika dowolnej firmy. Informacje jakie są potrzebne pracodawcy o pracowniku to imie , nazwisko, data urodzenia, staż pracy. W klasie Company utwórz trzy obiekty reprezentujące pracowników, nastepnie wyświtl informację o nich.
 
