@@ -4,16 +4,16 @@ public class Point2D {
     private double x;
     private double y;
 
-    Point2D(){
+    public Point2D(){
         this.x = 0;
         this.y = 0;
     }
-    Point2D(double x, double y){
+    public Point2D(double x, double y){
         this.x = x;
         this.y = y;
     }
 
-    private double getX() {
+    public double getX() {
         return x;
     }
 
@@ -21,7 +21,7 @@ public class Point2D {
         this.x = x;
     }
 
-    private double getY() {
+    public double getY() {
         return y;
     }
 
@@ -29,7 +29,7 @@ public class Point2D {
         this.y = y;
     }
 
-    double getDistance(Point2D point2D){
+    public double getDistance(Point2D point2D){
         return Math.sqrt(Math.pow(getX()-point2D.getX(),2)+ Math.pow(getY()-point2D.getY(),2));
     }
 }
