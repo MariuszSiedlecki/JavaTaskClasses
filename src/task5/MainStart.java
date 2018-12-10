@@ -1,4 +1,4 @@
-package Task5;
+package task5;
 
 public class MainStart {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class MainStart {
        lottery.addPlayers(players3);
        lottery.addPlayers(players4);
        lottery.addPlayers(players2);
-       lottery.addPlayers(new Players("Kazimierz",55));
+      
 
         System.out.println(lottery.randomPlayers().getName());
 
